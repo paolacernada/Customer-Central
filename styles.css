@@ -1,0 +1,42 @@
+/* the customer card container */
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* each customer card */
+  .customerCard {
+    width: calc(20% - 20px);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* customer images */
+  .customerImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* make the image circular */
+  }
+
+  .customerName {
+    font-size: 24px; 
+    font-weight: bolder;
+    margin-bottom: -10px;
+  }
+  
+  .customerEmail {
+    color: #666666; 
+  }
+
+.customerAddress,
+.customerAddress2,
+.customerDOB,
+.customerRegistered {
+  margin: 0;
+}
+
+.customerAddress2 {
+    margin-bottom: 10px;
+  }
